@@ -221,7 +221,8 @@ section {
 .single-blog {
     position: relative;
     background-color: #2e2e34;
-
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .blog-meta .date {
