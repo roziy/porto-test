@@ -166,6 +166,77 @@ section {
     justify-content: center;
 }
 
+.blog-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.blog-wrap {
+    /* background-color: rgb(46, 46, 52); */
+    width: 250px;
+    margin: 20px;
+}
+
+.single-blog:hover .blog-img img {
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+}
+
+.blog-title a h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blog-img img {
+    /* width: 250px; */
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s ease;
+
+}
+
+.blog-details {
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+.blog-button a {
+    font-size: 12px;
+}
+
+.blog-details p {
+    font-size: 12px;
+}
+
+.blog-img {
+    overflow: hidden;
+    width: 250px;
+}
+
+.single-blog {
+    position: relative;
+    background-color: #2e2e34;
+
+}
+
+.blog-meta .date {
+    background: rgba(0.18, 0.18, 0.21);
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #e4aa48;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+}
+
 .cards {
     border-radius: 0px;
     box-shadow: 0px 0px 0px 0px;
