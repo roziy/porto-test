@@ -12,7 +12,7 @@
 | No. Absen | INPG-PKJ-04-012 |
 | web       | https://muhammad-sokhib-roziki.herokuapp.com/ |
 | Nama      | Muhammad Sokhib Roziki |
-| Github    | Github|
+| Github    | https://github.com/roziy/porto-test |
 
 
 #### Note      :
